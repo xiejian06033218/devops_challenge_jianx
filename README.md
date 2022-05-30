@@ -36,7 +36,7 @@ Ctrl+C to stop the current container.
 
 ## 2. Create AWS Resource via Terraform
 
-Please refer to [README.md](./terraform_aws_infra) under `terraform_aws_infra)` for the creation of AWS resources, which are used to host this static website.
+Please refer to [README.md](./terraform_aws_infra) under `terraform_aws_infra` for the creation of AWS resources, which are used to host this static website.
 
 AS shown in the following architectural diagram, the dockerized web application is hosted on EC2, which is fronted by CloudFront to globalise content delivery. the domain name <http://web.jiandevops.link> is managed by Route53. A tls certificate was created and managed by ACM to enabled https connection.
 

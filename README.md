@@ -56,7 +56,7 @@ Steps to be followed to set up Jenkins CICD pipeline are :
 - Set Jenkinsfile path in the Script Path
 - Set up webhooker on github application repository, in order to automatically trigger the pipeline when a change is pushed to main branch
 
-![Alt text](images/jenkins_pipeline_config.png?raw=true)
+![Alt text](images/jenkins_pipeline_config.PNG?raw=true)
 
 ### 3.2 Pipeline stages
 
@@ -69,9 +69,9 @@ The pipeline stages include:
 
 The pipeline output looks like this when run successfully.
 
-![Alt text](images/build_output.png?raw=true)
+![Alt text](images/build_output.PNG?raw=true)
 
-![Alt text](images/website.png?raw=true)
+![Alt text](images/website.PNG?raw=true)
 
 # Improvements, Alternatives and additional works
 
